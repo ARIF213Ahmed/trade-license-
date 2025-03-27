@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade License Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trade License Search</h1>
+        
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search by name, code, or type...">
+            <button id="searchBtn">Search</button>
+        </div>
+        
+        <div id="resultsCount" class="results-info">Loading trade licenses...</div>
+        
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Code</th>
+                    </tr>
+                </thead>
+                <tbody id="results">
+                    <!-- Results will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
