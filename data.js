@@ -44,5 +44,20 @@ const tradeData = [
   { name: "BINDING PRESS", type: "ITL", code: "9423" },
   { name: "BIO PESTICIDES", type: "GTL", code: "991" },
   { name: "BLOOD BANK", type: "HTL", code: "9395" },
+  { name: "BLOOD COLLECTION CENTRE (AIR CONDITIONED ESTABLISHMENT)", type: "HTL", code: "9394" },
+  { name: "BLOOD COLLECTION CENTRE (NON AIR CONDITIONED ESTABLISHMENT)", type: "HTL", code: "9393" },
+  { name: "BOARD FURNITURE", type: "ITL", code: "9391" },
+  { name: "BODY CONSTRUCTION", type: "ITL", code: "9390" },
+  { name: "BODY GARAGE", type: "ITL", code: "9389" },
+  { name: "BODY REPAIRING", type: "ITL", code: "9387" },
+  { name: "BODY REPAIRING AND SUPPLY", type: "ITL", code: "9386" },
+  { name: "BOOK & STATIONARY & GIFT ITEMS", type: "GTL", code: "911" },
+  { name: "BOUTIQUE TAILORING", type: "GTL", code: "990" },
+  { name: "BRICK BLOCKS", type: "ITL", code: "9313" },
+  { name: "BROKERAGE & CONSULTANCY SERVICES", type: "GTL", code: "989" },
+  { name: "BUILDING MATERIALS", type: "GTL", code: "988" },
+  { name: "C & F (CARRYING & FORWARDING)", type: "GTL", code: "883" },
+  { name: "C I SHEET CORRUGATION", type: "ITL", code: "9194" },
+  { name: "CABLE & TRANSFORMERS", type: "ITL", code: "9185" }
   
 ];
